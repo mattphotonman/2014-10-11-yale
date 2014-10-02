@@ -1,38 +1,26 @@
 ---
 layout: workshop
 root: .
-venue: Euphoric State University
-address: 123 College Street, Euphoria
+venue: Yale University
+address: Sloane Physics Lab, Room 43, 217 Prospect Street, New Haven, CT 06511
 country: United-States
-humandate: Feb 17-18, 2020
-humantime: 9:00 am - 4:30 pm
-startdate: 2020-06-17
-enddate: 2020-06-18
-latlng: 41.7901128,-87.6007318
+humandate: Oct 11-12, 2014
+humantime: 9:00 am - 4:00 pm
+startdate: 2014-10-11
+enddate: 2014-10-12
+latlng: 41.3181294,-72.9237981
 registration: restricted
-instructor: ["Grace Hopper", "Alan Turing"]
-helper: ["John von Neumann"]
-contact: admin@software-carpentry.org
+instructor: ["Camille Avestruz", "Matthew Lightman"]
+helper: ["Jieming Chen", "Wendell Smith", "Tomomi Sunayama", "Manuel Mai"]
+contact: rbsi.yale@gmail.com
 #redirect: http://www.3rd.party.workshop.home.page.com
 #eventbrite: 00000000000
-lessons: ['R', 'Python', 'SQL', 'Git', 'Bash', 'VM']
+lessons: ['Python', 'Git', 'Bash']
 ---
 <!--
     Edit the values in the parameter block above to be appropriate for your workshop.
     Please use three-letter month names for the 'humandate' field.
 -->
-
-<!-- Remove the block below. -->
-<div align="center">
-  <p><strong><em>
-      This page is a template for workshop home pages.
-      <br/>
-      Please see
-      <a href="//github.com/swcarpentry/bc">github.com/swcarpentry/bc</a>
-      for instructions on how to create
-      a repository for your workshop.
-  </em></strong></p>
-</div>
 
 <!--
     This block includes the Eventbrite registration widget if 'eventbrite' has been set in the header.
@@ -118,30 +106,26 @@ lessons: ['R', 'Python', 'SQL', 'Git', 'Bash', 'VM']
 -->
 <h2>Schedule</h2>
 
-<div class="row-fluid">
-  <div class="span6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td><em>10:30</em></td> <td><em>Coffee break</em></td> </tr>
-      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td> <td>Building programs with Python</td> </tr>
-      <tr> <td><em>14:30</em></td> <td><em>Coffee break</em></td> </tr>
-      <tr> <td>16:00</td> <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-  <div class="span6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Version control with Git</td> </tr>
-      <tr> <td><em>10:30</em></td> <td><em>Coffee break</em></td> </tr>
-      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td> <td>Managing data with SQL</td> </tr>
-      <tr> <td><em>14:30</em></td> <td><em>Coffee break</em></td> </tr>
-      <tr> <td>16:00</td> <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-</div>
+<table class="table table-striped">
+  <tr> <td>Saturday, Oct. 11</td> <td>08:30-9:00</td>  <td>Help with set-up issues if you would like</td> </tr>
+  <tr><td></td>       <td>09:00-10:00</td>  <td>Introductions / The Unix shell</td> </tr>
+  <tr> <td></td>        <td>10:00 - 10:15</td>   <td>Break</td> </tr>
+  <tr> <td></td>        <td>10:15 - 11:15</td>   <td>Task automation with Bash</td> </tr>
+  <tr> <td></td>        <td>11:15 - 12:15</td>   <td>Introduction to version control and git</td> </tr>
+  <tr> <td></td>        <td>12:15 - 13:30</td>   <td>Lunch break</td> </tr>
+
+  <tr> <td></td>        <td>13:30 - 15:00</td>  <td>More version control and git</td> </tr>
+  <tr> <td></td>        <td>15:00 - 15:15</td>  <td>Break</td> </tr>
+  <tr> <td></td>        <td>15:15 - 16:00</td>  <td>Adavanced git / Github tools / Wrap-up</td> </tr>
+  <tr> <td>Sunday, Oct. 12</td> <td>09:00 - 10:00</td>  <td>Introduction to Python</td> </tr>
+  <tr> <td></td>        <td>10:00 - 10:15</td>   <td>Break</td> </tr>
+  <tr> <td></td>        <td>10:15 - 12:15</td>   <td> Intermediate Python data types and control flow</td> </tr>
+
+  <tr> <td></td>        <td>12:15 - 13:30</td>  <td>Lunch break</td> </tr>
+  <tr> <td></td>        <td>13:30 - 15:00</td>  <td>Python functions and file I/O</td> </tr>
+  <tr> <td></td>        <td>15:00 - 15:15</td>  <td>Break</td> </tr>
+  <tr> <td></td>        <td>15:15 - 16:00</td>  <td>Example Python Workflow / Wrap-up</td> </tr>
+</table>
 
 <hr/>
 
@@ -176,17 +160,6 @@ lessons: ['R', 'Python', 'SQL', 'Git', 'Bash', 'VM']
       <li><a href="novice/ref/03-python.html">Reference...</a></li>
     </ul>
   </div>
-  <div class="span6">
-    <h3>Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals: <code>for</code>, <code>if</code>, <code>else</code></li>
-      <li>Using R from the command line</li>
-      <li><a href="novice/ref/06-R.html">Reference...</a></li>
-    </ul>
-  </div>
 </div>
 
 <div class="row-fluid">
@@ -202,20 +175,6 @@ lessons: ['R', 'Python', 'SQL', 'Git', 'Bash', 'VM']
       <li>Open licenses</li>
       <li>Where to host work, and why</li>
       <li><a href="novice/ref/02-git.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="span6">
-    <h3>Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="novice/ref/04-sql.html">Reference...</a></li>
     </ul>
   </div>
 </div>
